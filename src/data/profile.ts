@@ -1,0 +1,80 @@
+// ─── Profile Data: Muhammad Zacky ──────────────────────────────────────────────
+
+import type { Profile } from '../types';
+
+export const profile: Profile = {
+  name: 'Muhammad Zacky',
+  title: 'Web Developer & Informatics Student',
+  tagline: 'Developer by Logic, Creator by Passion.',
+  taglineAlt: 'Turning Ideas into Digital Experiences.',
+  bio: `Halo, saya Muhammad Zacky, mahasiswa Teknik Informatika yang memiliki ketertarikan dalam pengembangan aplikasi web, pemrograman, desain antarmuka, dan teknologi digital. Saya senang membangun aplikasi, mengembangkan sistem backend, merancang antarmuka pengguna, serta mengeksplorasi ide kreatif menjadi solusi digital yang bermanfaat. Memiliki pengalaman dalam pengembangan REST API, pengelolaan database, dan pembuatan sistem berbasis web menggunakan Laravel, PHP, React, JavaScript, dan MySQL.`,
+  fullBio: [
+    'Saya adalah mahasiswa Teknik Informatika di UIN Sultan Syarif Kasim Riau yang memiliki minat besar dalam dunia teknologi, khususnya pengembangan perangkat lunak dan aplikasi berbasis web.',
+    'Saya tertarik mempelajari bagaimana sebuah aplikasi dibangun, mulai dari perancangan antarmuka pengguna, pengembangan logika aplikasi, pengelolaan database, hingga komunikasi antara frontend dan backend melalui API.',
+    'Dalam proses belajar dan mengembangkan proyek, saya berusaha memahami permasalahan terlebih dahulu sebelum menentukan solusi. Saya juga senang mengeksplorasi teknologi baru, mencoba pendekatan berbeda, dan mengembangkan kemampuan melalui praktik langsung.',
+    'Saya memiliki ketertarikan pada backend development menggunakan Laravel dan PHP, frontend development menggunakan React dan JavaScript, serta pengelolaan database menggunakan MySQL. Selain itu, saya juga tertarik pada UI/UX design, analisis data, machine learning, dan pembuatan konten digital.',
+    'Saya percaya bahwa developer yang baik tidak hanya mampu menulis kode, tetapi juga mampu memahami kebutuhan pengguna, bekerja sama dalam tim, beradaptasi dengan perubahan, dan menciptakan solusi yang memiliki nilai guna.',
+    'Saat ini, saya terus berusaha mengembangkan kemampuan teknis, memperluas pengalaman proyek, dan mempersiapkan diri untuk menghadapi tantangan di dunia profesional.',
+  ],
+  location: 'Riau, Indonesia',
+  university: 'UIN Sultan Syarif Kasim Riau',
+  major: 'S1 Teknik Informatika',
+  classGrade: 'Kelas D',
+  education: [
+    {
+      institution: 'UIN Sultan Syarif Kasim Riau',
+      degree: 'Sarjana (S1)',
+      field: 'Teknik Informatika (Kelas D)',
+      period: 'Mahasiswa Aktif',
+      description: 'Mempelajari bidang ilmu komputer dan teknologi informasi, termasuk pemrograman, pengembangan perangkat lunak, pengelolaan database, pengembangan aplikasi web, dan analisis data.',
+    },
+  ],
+  primaryField: 'Web Development',
+  focusAreas: [
+    'Backend Development',
+    'Frontend Development',
+    'UI/UX Design',
+    'Software Development',
+  ],
+  supportingFields: [
+    'Database Management',
+    'Data Mining',
+    'Machine Learning',
+    'Digital Content Creation',
+  ],
+  interests: [
+    'Backend Systems',
+    'Interactive UI/UX',
+    'REST API Architecture',
+    'Database Optimization',
+    'Machine Learning',
+    'Space & Pixel Aesthetics',
+  ],
+  focus: [
+    'Pengembangan REST API andal dengan Laravel & PHP',
+    'Antarmuka web interaktif dan responsif dengan React',
+    'Manajemen dan perancangan relasi database MySQL',
+    'Penerapan UI/UX modern, wireframing, dan prototyping Figma',
+  ],
+  softSkills: [
+    'Problem Solving — Memahami akar permasalahan dan merancang solusi terstruktur',
+    'Adaptability — Cepat beradaptasi dan mempelajari teknologi baru',
+    'Teamwork — Mampu bekerja sama dan berkolaborasi dalam tim secara solid',
+    'Communication — Menyampaikan ide dan berkoordinasi secara efektif',
+    'Creativity — Menggabungkan logika teknis dengan desain visual intuitif',
+    'Continuous Learning — Terus belajar dan mengasah keahlian lewat praktik langsung',
+    'Time Management — Mengatur prioritas dan menyelesaikan tanggung jawab tepat waktu',
+  ],
+  careerMission: [
+    'Terus berkembang sebagai software developer profesional, terutama di bidang web development dan backend engineering.',
+    'Memperdalam pemahaman arsitektur aplikasi, keamanan sistem, pembuatan REST API handal, dan optimasi database.',
+    'Mengembangkan wawasan menyeluruh dari frontend hingga backend untuk menghadirkan produk digital yang berdampak nyata.',
+    'Mengeksplorasi data mining dan machine learning untuk melahirkan solusi cerdas berbasis analitik.',
+    'Terbuka untuk kesempatan magang, proyek kolaborasi, freelance, dan pengalaman profesional di industri teknologi.',
+  ],
+  email: 'zackymhd29@gmail.com',
+  github: 'https://github.com/zacky101004',
+  linkedin: 'https://linkedin.com/in/kei',
+  resumeUrl: '',
+  avatarPath: '',
+};

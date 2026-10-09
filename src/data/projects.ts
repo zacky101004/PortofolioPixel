@@ -1,0 +1,82 @@
+// ─── Projects Data: Muhammad Zacky ─────────────────────────────────────────────
+// Real projects strictly verified without premature results or speculative claims.
+
+import type { Project } from '../types';
+
+export const projects: Project[] = [
+  {
+    id: 'proj-sipelmad',
+    name: 'SIPELMAD (Sistem Pelaporan Madrasah)',
+    slug: 'sipelmad-kemenag-kampar',
+    shortDescription: 'Sistem pelaporan madrasah berbasis web yang dikembangkan untuk digitalisasi laporan bulanan pada Kementerian Agama Kabupaten Kampar.',
+    problem: 'Proses pelaporan bulanan madrasah sebelumnya masih mengandalkan rekapitulasi manual dan dokumen fisik yang tersebar, menghambat efisiensi audit data.',
+    goal: 'Membangun arsitektur backend REST API yang aman, terpusat, dan terstruktur untuk memfasilitasi pelaporan berkala ratusan madrasah secara terkoordinasi.',
+    solution: 'Merancang dan mengimplementasikan RESTful API dengan framework Laravel, skema database MySQL relasional, sistem autentikasi token Laravel Sanctum, dan kontrol akses pengguna berbasis peran (RBAC).',
+    role: 'Backend Developer (Kerja Praktik)',
+    technologies: ['Laravel', 'PHP', 'MySQL', 'REST API', 'JSON', 'Laravel Sanctum', 'Postman', 'XAMPP'],
+    features: [
+      'Pengembangan endpoint REST API terstruktur untuk seluruh modul pelaporan',
+      'Manajemen skema database relasional MySQL dan relasi entitas madrasah',
+      'Implementasi autentikasi token aman dengan Laravel Sanctum',
+      'Penerapan middleware dan kontrol hak akses berdasarkan peran pengguna (RBAC)',
+      'Validasi form request ketat untuk memastikan integritas data masukan',
+      'Pengelolaan data laporan berkala bulanan dan berkas administratif madrasah',
+      'Pengujian fungsional dan verifikasi seluruh endpoint API menggunakan Postman',
+    ],
+    screenshots: [],
+    category: 'Backend Development',
+    status: 'completed',
+    featured: true,
+    color: '#38BDF8',
+  },
+  {
+    id: 'proj-pixelquest',
+    name: 'PixelQuest Space Portfolio',
+    slug: 'pixelquest-space-portfolio',
+    shortDescription: 'Website portofolio developer bertema luar angkasa retro pixel art, memadukan identitas teknis, audio synthesizer Web Audio API, dan UI interaktif.',
+    problem: 'Portofolio konvensional cenderung kaku dan kurang mencerminkan eksplorasi estetika visual kreatif serta antusiasme terhadap detail interaktivitas.',
+    goal: 'Menciptakan representasi profil profesional yang imersif bertema starlight cosmos dan pixel art, dengan performa tinggi dan responsivitas mobile optimal.',
+    solution: 'Membangun aplikasi web frontend dengan React dan TypeScript, styling CSS custom bertema deep cosmic space, sintesis suara retro 8-bit tanpa aset file eksternal, dan grafis SVG pixel art luar angkasa mandiri.',
+    role: 'Frontend Developer & UI Designer',
+    technologies: ['React', 'TypeScript', 'CSS3', 'HTML5', 'Vite', 'Web Audio API'],
+    features: [
+      'Desain antarmuka retro luar angkasa dengan tekstur grid kosmik dan scanline CRT',
+      'Ikon dan ilustrasi tema angkasa pixel art murni (roket, satelit, stasiun luar angkasa, planet)',
+      'Sintesis efek suara chiptune 8-bit langsung via Web Audio API tanpa file audio eksternal',
+      'Struktur data profil, keahlian, dan proyek yang transparan dan dapat diverifikasi',
+      'Breakdown modal detail arsitektural untuk setiap proyek unggulan',
+      'Desain responsif penuh yang dioptimalkan untuk perangkat mobile / Android dan desktop',
+    ],
+    screenshots: [],
+    category: 'Web Development',
+    status: 'in-progress',
+    featured: true,
+    color: '#F4C95D',
+  },
+  {
+    id: 'proj-ecommerce-analysis',
+    name: 'Analisis Performa Produk E-Commerce',
+    slug: 'analisis-performa-ecommerce-ml',
+    shortDescription: 'Riset akademik dan eksplorasi data mining untuk segmentasi serta klasifikasi performa produk e-commerce menggunakan dataset Tokopedia dari Kaggle.',
+    problem: 'Karakteristik performa produk pada platform e-commerce sangat heterogen, sehingga dibutuhkan pendekatan analitik data untuk memahami pola keterjualan dan ulasan.',
+    goal: 'Menganalisis distribusi fitur produk (rating, jumlah terjual, ulasan) serta mengeksplorasi clustering dan klasifikasi machine learning untuk segmentasi produk.',
+    solution: 'Menyusun alur kerja data science terstruktur meliputi data cleaning, preprocessing, segmentasi kelompok produk menggunakan K-Means Clustering, dan pemodelan klasifikasi menggunakan Random Forest.',
+    role: 'Data Mining & Machine Learning Researcher',
+    technologies: ['Python', 'Pandas', 'Scikit-learn', 'Jupyter Notebook', 'Data Preprocessing'],
+    features: [
+      'Pembersihan dataset produk e-commerce Tokopedia (penanganan nilai hilang, duplikasi, dan outliers)',
+      'Eksplorasi data analisis (EDA) untuk mengidentifikasi distribusi rating, volume penjualan, dan review',
+      'Normalisasi dan standardisasi skala data numerik (feature scaling)',
+      'Eksplorasi segmentasi produk menggunakan algoritma K-Means Clustering',
+      'Penyusunan model klasifikasi kategori performa produk menggunakan Random Forest',
+      'Evaluasi performa model dengan metrik evaluasi yang tepat pada lingkungan Jupyter Notebook',
+    ],
+    screenshots: [],
+    category: 'Data Mining & ML',
+    status: 'in-progress',
+    featured: true,
+    color: '#A855F7',
+  },
+];
+
+export const projectCategories = ['All', 'Backend Development', 'Web Development', 'Data Mining & ML'];
