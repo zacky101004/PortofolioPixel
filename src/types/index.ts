@@ -93,14 +93,3 @@ export interface Experience {
   technologies?: string[];
   type: 'internship' | 'organization' | 'academic' | 'other';
 }
-
-// ─── Achievements ─────────────────────────────────────────────────────────
-
-export interface Achievement {
-  id: string;
-  name: string;
-  description: string;
-  icon: string;
-  year?: string;
-  category: 'certificate' | 'project' | 'award' | 'milestone';
-}
